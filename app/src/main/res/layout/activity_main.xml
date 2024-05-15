@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:background="#5E96A5"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="0dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Alarma dentro de 4 horas"
+            android:textColor="#FFFFFF"
+            android:textSize="45sp" />
+
+        <ImageButton
+            android:id="@+id/agregar"
+            android:layout_width="68dp"
+            android:layout_height="95dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="298dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="-9dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/agregar" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:text="Recordatorios activos"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginVertical="8dp" />
+
+    <LinearLayout
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:background="#EAEBE6">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abril 8:00 AM"
+            android:textSize="12sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paracetamol 100g"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/white" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abril 8:00 AM"
+            android:textSize="12sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paracetamol 100g"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abril 8:00 AM"
+            android:textSize="12sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paracetamol 100g"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/vincular"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="VINCULAR UN DISPOSITIVO"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

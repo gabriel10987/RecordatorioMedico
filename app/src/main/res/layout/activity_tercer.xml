@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tercerActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Alarma dentro de 4 horas"
+            android:textSize="45sp"
+            android:layout_marginBottom="25dp"/>
+
+        <EditText
+            android:id="@+id/editTextMedicamentos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Código de pulsera"
+            android:background="#EAEBE6"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+        <Button
+            android:id="@+id/vincular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:text="Verificar código"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Dispositivos vinculados"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="6">
+
+            <ImageView
+                android:layout_width="11dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="15dp"
+                android:src="@drawable/brazalete" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.5"
+                android:paddingTop="20dp"
+                android:text="PulseCareB2"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:src="@drawable/cheque"
+                android:paddingTop="15dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
