@@ -37,7 +37,7 @@
         android:id="@+id/btn_add_tone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Agregar tono"
+        android:text="Agregar tono de recordatorio"
         android:layout_marginHorizontal="20dp"
         android:layout_marginBottom="20dp"
         android:textColor="@color/white"
