@@ -30,7 +30,7 @@
                     android:id="@+id/txt_upcoming_reminder"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Alarma"
+                    android:text="Recordatorio más cercano"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:gravity="center"/>
