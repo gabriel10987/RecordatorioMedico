@@ -13,10 +13,13 @@
         android:theme="@style/Theme.PulseCare"
         tools:targetApi="31">
         <activity
-            android:name=".tercerActivity"
+            android:name=".SoundActivity"
             android:exported="false" />
         <activity
-            android:name=".segundoActivity"
+            android:name=".DeviceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
